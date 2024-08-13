@@ -30,3 +30,24 @@ NOTE = THESE ALL WILL BE THE VALUES WHEN WE CONVERT THEM INTO BOOLEAN BUT TYPE S
 "" => false
 "abc" => true
 */
+
+// *************** OPERATIONS ***************
+
+/*
+console.log(15 + 10);
+console.log(15 - 10);
+console.log(15 * 10);
+console.log(15 / 10);
+console.log(15 % 10);
+console.log(15 ** 10);
+*/
+
+let str1 = "my name is";
+let str2 = " keshav";
+let str3 = str1 + str2;
+console.log(str3);
+
+console.log("1" + 2);      // 12
+console.log(1 + "2");      // 12
+console.log("1" + 2 + 2);  // 122
+console.log(1 + 2 + "2");  // 32

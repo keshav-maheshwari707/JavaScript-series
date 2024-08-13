@@ -11,3 +11,14 @@ console.table([typeof fullName, typeof age, typeof isStudent, typeof state, type
 Primitive data types are = string, number, boolean, undefined, null, bigInt, symbol.
 Non-Primitive data type = object.
 */
+
+// HOW TO ACCEPT USER INPUT ?
+
+let username;
+// username = window.prompt("enter username");
+// console.log(username);
+
+document.getElementById("mySubmit").onclick = function(){
+    username = document.getElementById("myText").value;
+    document.getElementById("myH1").textContent = `hello ${username}`;
+} 

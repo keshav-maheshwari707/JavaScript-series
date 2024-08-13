@@ -51,3 +51,35 @@ console.log("1" + 2);      // 12
 console.log(1 + "2");      // 12
 console.log("1" + 2 + 2);  // 122
 console.log(1 + 2 + "2");  // 32
+
+
+let students = 10;
+// students = students + 1;
+// students = students - 1;
+// students = students * 2;
+// students = students / 2;   returns quotient
+// students = students ** 2;
+// students = students % 2;   returns remainder
+
+// students += 2;       These are called augumented assignment operators.
+// students -= 2;
+// students *= 2;
+// students /= 2;
+// students **= 2;
+// students %= 2;
+
+// students++;         Increment & Decrement operators.       
+// students--;         
+
+console.log(students);
+
+/*
+OPERATOR PRECEDENCE-
+paranthesis
+exponents
+multiplication, division & modulus
+addition & subtraction
+*/
+
+let result = 12 % 5 + 8 / 2;
+console.log(result);
